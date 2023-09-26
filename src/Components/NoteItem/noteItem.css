@@ -1,0 +1,30 @@
+.hide-trash-icon{
+    align-self: flex-end;
+    visibility:hidden;
+}
+
+.creation-date{
+    background-color: rgb(42, 128, 128);
+    padding: 8px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.note-item{
+    background: rgb(210, 206, 206);
+    margin:4px ;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+.note-item:hover  .hide-trash-icon{
+    color: black;
+    visibility: visible;
+}
+
+.trash-icon{
+    font-size: x-large;
+}

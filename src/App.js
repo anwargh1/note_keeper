@@ -1,7 +1,10 @@
+import Notes from "./Components/Notes/Notes";
+
+
 function App() {
   return (
     <div >
-      App
+      <Notes/>
     </div>
   );
 }

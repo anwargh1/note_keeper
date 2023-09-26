@@ -1,0 +1,31 @@
+.search-input {
+    border: none;
+    width: 92%;
+    height:inherit;
+    background: transparent;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-bar:focus-within {
+    outline: 2px solid black;
+    border-radius: 4px;
+  }
+.search-bar{
+    padding: 4px;
+    height: 40px;
+    background-color: white;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.345);
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+
+}
+
+.search-icon{
+   position: relative;
+   top:4px;
+   padding-left: 4px;
+}
