@@ -1,0 +1,13 @@
+.delete-model{
+    position: absolute;
+    background-color: azure;
+    padding: 12px 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+

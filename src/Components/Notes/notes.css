@@ -1,0 +1,10 @@
+.notes{
+    width:50%;
+    background-color: rgb(106, 93, 105);
+    padding: 20px;
+    position: relative;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index: -1; */
+    
+}
